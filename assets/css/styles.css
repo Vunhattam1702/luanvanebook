@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+.main {
+    width: 1200px;
+    min-height: 100vh;
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    background-color: #27A4F2;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 48px;
+}
+
+/* Article */
+h1 {
+    line-height: 2rem;
+}
+
+article {
+    padding: 0 16px;
+    line-height: 1.6rem;
+}
+
+article img {
+    width: 640px;
+    max-width: 100%;
+    display: block;
+    margin: 32px auto;
+}
+
+
+.slogan {
+    margin: 0;
+    font-size: 11x;
+}
+
+.tieuluan {
+    /* background-color: #ede9df; */
+    font-size: 15px;
+}
+
+article {
+    /* padding: 0 100px 0 0; */
+    border: inset;
+}
+
+.img {
+    border: inset;
+    /* padding: 0 0 0 20px; */
+}
+
+.contentbig {
+    display: flex;
+}
+
+.detail {
+    font-size: 12px;
+}
+
+.linkbai {
+    list-style: none;
+}
+
+.i-amphtml-fill-content{
+    /* position: absolute; */
+    /* top: 10px;
+    left: 0;
+    bottom: 0;
+    right: 0; */
+    height: 250px;
+}
